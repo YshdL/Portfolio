@@ -10,7 +10,7 @@ Test the hypothesis that user activity varies based on the day of the week, with
 ### Libraries Used:
 Pandas
 
-### Research Process:
+### Project Plan:
 
 1. Data Overview:
 The dataset contains 65,079 entries and includes variables such as userID, Track, artist, genre, City, time, and Day.
