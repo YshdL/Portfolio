@@ -9,7 +9,7 @@ Exploratory Data Analysis
 ### Dataset
 The dataset with Yandex Music users data contains 65,079 entries and includes variables such as userID, Track, artist, genre, City, time, and Day.   
 The data have missing values.
-### Libraries Used:
+### Libraries
 Pandas
 
 ### Conclusion
