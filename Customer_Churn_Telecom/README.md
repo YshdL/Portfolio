@@ -1,40 +1,27 @@
-# Telecom Churn Prediction
-## Project Overview:
+## Telecom Churn Prediction
+### Overview
+This project aims to predict customer churn for a telecommunications service provider and devise a retention strategy that involves offering promotional codes and special incentives to customers who are at risk of terminating their contracts.
+### Task
+Classification
 
-The "Telecom Churn Prediction" project focuses on predicting customer churn for the telecommunications service provider, "NoBreak Telecom." Understanding and predicting customer churn is vital for businesses in the highly competitive telecommunications industry. "NoBreak Telecom" offers a range of services, including:
-
-- Fixed-line telephone services: Multiple line connections are available.
-- Internet services: Two types of connections - Digital Subscriber Line (DSL) and Fiber Optic.
-- Additional services:
-  - Internet Security: Antivirus (DeviceProtection) and unsafe website blocking (OnlineSecurity).
-  - Dedicated technical support (TechSupport).
-  - Cloud file storage for data backup (OnlineBackup).
-  - Streaming TV (StreamingTV) and a movie catalog (StreamingMovies).
-
-Customers can choose to pay on a monthly basis or sign contracts for 1-2 years. Various payment methods and electronic invoicing options are available.
-
-## Data Sources:
+### Dataset
 The project utilizes data from different sources, including:
 
-- `contract_new.csv`: Contract information.
-- `personal_new.csv`: Customer personal data.
-- `internet_new.csv`: Internet service information.
-- `phone_new.csv`: Phone service information.
+- `contract_new.csv`: Contract information, 7043 entries, 8 variables (customerID, BeginDate, EndDate, Type, PaperlessBilling, PaymentMethod, MonthlyCharges, TotalCharges)
+- `personal_new.csv`: Customer personal data, 7043 entries, 5 variables
+- `internet_new.csv`: Internet service information, 5516 entries, 8 variables
+- `phone_new.csv`: Phone service information, 6361 entries, 2 variables
 
 In all these files, the `customerID` column contains unique customer identifiers.
 
-## Project Goals:
-The primary goal of this project is to develop a predictive model that can accurately forecast which customers are likely to terminate their services with "NoBreak Telecom." By identifying potential churners, the company aims to implement targeted retention strategies, such as offering promotional codes and special incentives. This approach helps prevent the loss of customers who had no intention to leave and ensures that customers who terminated their contracts receive the appropriate offers.
+### Libraries
+Pandas  
+Matplotlib  
+Scikit-learn  
 
-## Project Plan:
-Data Preprocessing and EDA
-Customer Profiling
-Customer Flow Analysis
-Feature Correlation Analysis
-Modeling
-Testing
-Model Investigation
-Analysis of the confusion matrix and optimal probability threshold tuning.
-
-### Conclusion:
+### Conclusion
 By executing this plan, we aim to develop a reliable predictive model that will empower Telecom company to reduce customer churn, enhance customer retention, and maximize profitability.
+
+
+
+
