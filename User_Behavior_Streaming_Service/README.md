@@ -1,4 +1,4 @@
-## Exploring User Behavior on Yandex Music in Moscow and St. Petersburg
+## User Behavior on Yandex Music in Moscow and St. Petersburg
 
 
 ### Overview
