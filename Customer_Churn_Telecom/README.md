@@ -18,9 +18,17 @@ In all these files, the `customerID` column contains unique customer identifiers
 Pandas  
 Matplotlib  
 Scikit-learn  
+Optuna  
+CatBoost  
+LGBM  
+
 
 ### Conclusion
-By executing this plan, we aim to develop a reliable predictive model that will empower Telecom company to reduce customer churn, enhance customer retention, and maximize profitability.
+The LightGBM model excelled, achieving:
+
+ROC-AUC: 0.9319
+Accuracy: 0.9296
+Сalibration and threshold tuning were made, it's recommended for deployment, enabling effective customer retention and cost reduction.
 
 
 
