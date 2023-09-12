@@ -1,7 +1,7 @@
 ## Borrower Reliability - Bank Data Analysis
 
 ### Overview
-Influence of bank customers' personal data, such as marital status, gender, education and the presence of children, on timely loan repayment.  
+Identify the influence of bank customers' personal data, such as marital status, gender, education and the presence of children, on timely loan repayment.  
 The results of this research will be utilized in building a credit-scoring model.
 
 ### Task
